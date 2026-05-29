@@ -19,7 +19,6 @@ def substitution(y):
            continue
         r -= t[i]
     return r
-print(substitution("1 2 5"))          
 
 def multiplying(y):
     e = y.split(" ")
@@ -34,7 +33,6 @@ def multiplying(y):
            continue
         r *= t[i]
     return r
-print(multiplying("2 5"))          
 
 
 def divide(y):
@@ -50,4 +48,3 @@ def divide(y):
            continue
         r /= t[i]
     return r
-print(divide("5 2"))    
