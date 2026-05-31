@@ -1,12 +1,17 @@
 import basic_calculations
-
+import number_grabber
 def pick(option_number):
     match option_number:
         case "1":
-             basic_calculations.substitution()
+             p = number_grabber.number_grabber()
+             print(basic_calculations.substitution(p))
         case "2":
-             basic_calculations.add()
+             p = number_grabber.number_grabber()
+             print(basic_calculations.add(p))
         case "3":
-             basic_calculations.divide()
+             p = number_grabber.number_grabber()
+
+             print(basic_calculations.divide(p))
         case "4":
-             basic_calculations.multiplying()     
+             p = number_grabber.number_grabber()
+             print(basic_calculations.multiplying(p))     

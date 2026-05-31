@@ -1,3 +1,4 @@
+import choose_from
 print("""
 1- subtraction
 2- add
@@ -6,4 +7,4 @@ print("""
 """)
 
 user_input = input("\nchoose by number:").strip()
-
+choose_from.pick(user_input)
