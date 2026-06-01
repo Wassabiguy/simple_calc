@@ -48,3 +48,6 @@ def divide(y):
            continue
         r /= t[i]
     return r
+
+def newfu
+def r
