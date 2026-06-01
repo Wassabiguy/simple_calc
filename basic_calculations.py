@@ -31,7 +31,7 @@ def multiplying(y):
         if i ==0:
            r = t[0]
            continue
-        r *= t[i]
+        r = t[i]
     return r
 
 
