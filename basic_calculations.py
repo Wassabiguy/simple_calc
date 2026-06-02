@@ -49,5 +49,3 @@ def divide(y):
         r /= t[i]
     return r
 
-def newfu
-def r
