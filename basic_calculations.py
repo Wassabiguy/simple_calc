@@ -49,3 +49,4 @@ def divide(y):
         r /= t[i]
     return r
 
+def cos
